@@ -11181,8 +11181,8 @@ function Ru(e) {
         }]
     })(e)
 }
-const Du = "link_tele"
-  , Fu = "link_x"
+const Du = "https://t.me/trump_pump_site"
+  , Fu = "https://x.com/trump_pump_site"
   , lf = "#"
   , Kp = "#"
   , of = "#"
@@ -12008,7 +12008,7 @@ function C3() {
                             children: "How to Buy"
                         }), c.jsx("p", {
                             className: "text-lg md:text-xl lg:text-2xl text-center mb-5 md:mb-8 lg:mb-12 xl:mb-16 white-color",
-                            children: "How to Buy TRUMPPUMP (No, Seriously)TRUMPPUMP a cosmic meme token infused with Matt Furie’s iconic art, set to break the internet. Only the loyal will thrive!"
+                            children: "TRUMPPUMP is a powerhouse meme token inspired by the unstoppable energy of Donald J. Trump, destined to dominate the internet. Only the bold and loyal will rise to the top!"
                         })]
                     })
                 })
