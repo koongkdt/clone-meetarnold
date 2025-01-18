@@ -11181,12 +11181,12 @@ function Ru(e) {
         }]
     })(e)
 }
-const Du = "https://t.me/+UHusbuakpP9mZWM1"
-  , Fu = "https://x.com/meetarn0ld"
-  , lf = " https://www.instagram.com/meet_arnold?igsh=MWg1NW82M3RzNGVjaw=="
-  , Kp = " https://m.facebook.com/meetarnoldseries/"
-  , of = "https://youtube.com/@meetarnold-en?si=rQcyit4gmQgIQ5g4"
-  , uf = "https://www.tiktok.com/@meetarnold_";
+const Du = "link_tele"
+  , Fu = "link_x"
+  , lf = "#"
+  , Kp = "#"
+  , of = "#"
+  , uf = "#";
 function Xp() {
     const e = [{
         btn_title: "About",
@@ -11200,10 +11200,6 @@ function Xp() {
     }, {
         btn_title: "How to buy",
         to: "howto"
-    }, {
-        btn_title: "Whitepaper",
-        to: "https://meet-arnold.gitbook.io/meet-arnold/",
-        isHref: !0
     }]
       , [t,n] = ae.useState(!1)
       , r = () => {
@@ -11307,12 +11303,7 @@ function Xp() {
                                 })]
                             }), c.jsxs("div", {
                                 className: "heading-actions flex items-center flex-wrap gap-2",
-                                children: [c.jsx("a", {
-                                    href: "https://shop.junipercreates.com/channel/UCY3TJECrA90t9YTrxhdjcVw/p/4162634874941",
-                                    target: "_blank",
-                                    className: "text-base font-medium text-white bg-[#B6451A] px-3 h-[32px] flex items-center justify-center rounded-full shadow-[2px_2px_0_0_rgba(0,0,0,.80)] hover:shadow-none",
-                                    children: "Shop"
-                                }), c.jsx(J1, {
+                                children: [c.jsx(J1, {
                                     icons: i
                                 }), c.jsx("button", {
                                     className: "heading-toggler lg:hidden",
@@ -11469,7 +11460,7 @@ function qp(e) {
         }]
     })(e)
 }
-function af({address: e="LDK9TCQNkcFgTiFnbYtmbPToUXgxJL55eGqq817cqDx", className: t=""}) {
+function af({address: e="TBA", className: t=""}) {
     const n = e
       , [r,l] = ae.useState(!1)
       , o = () => {
@@ -11498,18 +11489,18 @@ function af({address: e="LDK9TCQNkcFgTiFnbYtmbPToUXgxJL55eGqq817cqDx", className
 }
 const bp = "/assets/banner-img-Cvdo-N4d.png"
   , e3 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIDSURBVHgBzZZNSBZRFIbfikqiolyUCYW0qCgoyoUtAiPDbbUpCCpa6FJduHGjbkRBFEFEdCFu1I0rQV0ICuLGjeI/bhQR/xbyKYoI4s97OOfDcb4ZnesfvvAwd87c77wz955z+YBL0DWHue9IBkkha2SIDOAMSvGMs8gg2Q9glvzzzL0TlCzsS9LJZ/KYFOLkL64h42SRdMNB1Qh++zBacAqlkeaIBrKcL8gDOOgPGbYflZ9g0Ebukg5SCgd1W4I0M8qBbrLE9uwaIwXkvs2RihuBg6YsiaiH/CRPSKbFpJSfk49klNwkfWQ7KNn1YA8k2du9IbXkB3lmcXnbT+QeySN1JJW8J7ePyZmg+NLI9TdJtvicxXfIQ+MrmcDhHjmbxGmFVo83lk3KkFgIkU3mfQbSlFm+ZP+hS1jhi9+KarKDw/IUyTEz40sm3f0KehpUeuKpUQySkXg+fYOW84LFdqFFIZs95pv/JYpJNhLXed0SFtl9o5nOBszNjWJSjODO7oSesjEzqA+Z1xDFRBpxOiTBU5IP3dxYwPNJix/Z/Bs+g9fkEfkOPS4yLL5g96ukivyC9s8y9NwSdUGbNMli0wjRS89YGm2FNEGLYYn027N2sgFdthKyZeO43sJB6Z7xX+iSSDnHLHlcmThH9UK/TKrK5f+Bk+Ro2YR2/4XqA66iDgCN57cDHCNcBgAAAABJRU5ErkJggg=="
-  , t3 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIySURBVHgBxZZLSFVRFIb/nkQ1KaKCBt2KomjQoEH2mkaPUcOiokkvqIgIJLO6BDWtoHHZS2eCExUFRQfi1IEjBRVH4htR78DXv7zreP577tF7ror+8LHP2XvttfbZaz8OsAHaksDmIrlObpIDZDuZIQOkhdSQNqxSJaSZzCegnpxAkSojc+4gQ6rIC3KBnCaXyTPyNxKsNGmAtHSqJMcL2KdIhfRJF7DHKzF+jOL0gcx639dYYUQzbvQRq1O5959yf3n67wZVyzh4Tr6QPVhZje6nOtqQQjhNp2I6vpH2h1JvAe2r6xGO/Lzb2dQdVCf3vKE5JoB1HkB8Yr9LfZPUB0t/Ma9bvfKWNEb1KToi113yUt7PynMQ8IoGCZZpZ8TRHXIf2U//I/U7yWd//u3lNmnv8fKcBtnn5ZQY7kI20fCyR9rsPUV6yVfka9TL3Rok4+V+MUyLo29Sbzs+2Ac2XeMyqOAsPOzloPRbOh7K/f0YwoTekKB6hFTIaMe87ik5Q7r8/Z0GeYLc1dXh77/EplQCTJCj0vYe+YdmHyIb0j4vOBB/eDlMjoiNPVtebL5vI1c2TbYQRsikDzZuvy3uUB1J3NllznZgDbI8THuAfqyjdG1b8myVXSN7PVgrkusR+YlsLroLGacRTpklPlXA3jbyP+nzAAn1Frn5sd1uN6HdiLZP7Ia0m9JO7IzYlaFInSQNSHbH22oqWc5Rkr+VS8gu2avkEMK/lSFSS+pIOzZbC2K6rIedKOCSAAAAAElFTkSuQmCC"
+  , t3 = "/assets/Pump_fun_logo.png"
   , n3 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR9SURBVHgBnVVdTFtlGH5Oe/pHe0pbGJRfO3WzSGZItjl+FIuR4IUz3iy7UjHubnGJwqLG6EqyJSbCnUaNN+riBUoc7sYsE61jUhaII0sxJUMoo/xKS6HntD09pz1+57B2tIy/PcnJ+b73e9/3+d7vfb/3o7AHdI+6nBSP+jTgyMgowKej4Hun0ePfzZ7abuGLcZcpHsXbSEnthRpDXZWhGIzGAINai3gqiTWBw3xiFREhNklJ1KWOJs+3+yL5zOt6SS3hm1pzpeOY9QkwtGGThQ6Uthoq7UEyprEWm4B3vh/+aDAggXq3s9HTvytJ93Bzh0Vt6m4rfQalOgt2g0rnBNQMQuzf6A8OgBVj7o6GG13bkvR4my9YNYz7VEU9dCoN9gOKtiMu/Ie+4B+IiLHO9+o9PVtIuodcr5lp/ZXTlY3KuT8KKLoCvCSid/onhMVY6/kGz285JD1DL0y/Xv28w6Ix5RiuJlnMxFawQv56NY20ROOfSAo0VYDTj5WRfNE5+ipjExbXR/DjzC8BXYI6crbFw6oUgr9c7U6mMocgKsZxdWEEl2cHcTN8FzxdiRXJhrG1u0hSU5hLjuPn2QkIaTGHJB0bRbntFdQyVY6YDmcU4o04pY9O2J7MKq4Tgr65YQRIBDLa7Bcxc60c4UEnmsvPKTKrVsJa+h6+nL6OXxdvk+qaJ1FKgMQjLS7jeGkLUgnxTVlX7b7a4CwpZD551vqA5NrSGJb5dWVcZnoay2NWDAz8jsDMDA5VHEOkYJQ4fBBBWGDxL7dEiOagU2tQTEsoML8If2TAfvTkgV6VqVjnLNNbswZy+JkIFAeJe7DbS7Jzo40iOgk8DPIJXF++gyA7DUlKokpfBKZIV09TEiwWjTGruJyM5hjyIguufBDn3n8DJsaIO9z3ALuVoPbAy/CvDJAGIch3BZIYUjqEDKU0NpdsMiVscSAbA+SLYVvExYhCUEB8lRuKIAkLWb9K4uVelEEsxeNRMLU6TBKtwXOWWphJG5KE2axfJZKoEM8qR8XEjs4kiUJ0Vg9KTXoyGaeSFEiuoTakcLLmMJxm+31FAWsiB1JvLB1l+eGgNpR1EsrLST4okkRzdRwCRy4m4dGaRCIDWkuOoIapzNFdiEfAhnifyt3m9YcTnI8TN6KJJDnsBRqjCB2zQdBU9NQWArnSIgI36X7V61dyQqr2u5HVKVmIkMBiPzhqeVz58nGLdAmyg0vyWCFhoPrKF50NDoUmsB/ICW60Hd4ilzdLLmago2HjIVNI5CaWAt6aJLd2PzhhO0Q2m/skJUhFXSE9T37AMjJVZiC3ZZGXPsQeIUdRw1TkyPi0gL75W1hPJro2v5CqzUoftNz4lJRo115IDhpLcuZLfAS9wSGEee7j800e9+Y1Vb6xoiBRp8ghBLADirSM8ufIvfpzZZwQeIOrYry1s8lzMV+X2slRj9fVroL6QkoSHflrdr1FaaZRMR1IpuNfGwrx+dlaz0NLc0eSDH643V63LkTqWCHiyMj0OtOiQbLePHP8sm83+/8BzI70OdmaMa0AAAAASUVORK5CYII="
   , r3 = "/assets/banner-video-BO-2qHFv.mp4";
 function l3() {
     const e = [{
         name: "dexscreener",
         icon: e3,
-        url: "https://dexscreener.com/solana/6dz9b3pxnlj8ex8ocxxw61625muusf75cv7rkitv7fir"
+        url: "https://dexscreener.com/solana"
     }, {
-        name: "dexscreener",
+        name: "pumpfun",
         icon: t3,
-        url: "https://coinmarketcap.com/currencies/arnold/"
+        url: "https://pump.fun/board"
     }, {
         name: "geckoterminal",
         icon: n3,
@@ -11523,7 +11514,7 @@ function l3() {
     }
     ;
     return c.jsxs("div", {
-        className: "banner relative z-20 py-12 lg:py-0",
+        className: "banner relative z-20 py-12 lg:py-0 matrix-bg",
         children: [c.jsx("div", {
             className: "banner-shape w-full absolute left-0 top-full",
             children: c.jsxs("svg", {
@@ -11536,7 +11527,6 @@ function l3() {
                 children: [c.jsx("g", {
                     filter: "url(#filter0_d_80_242)",
                     children: c.jsx("path", {
-                        d: "M1512 0H0C0 0 0 21.9427 0 35.4951C5.61824 31.8598 11.2034 24.7213 17.1522 24.0273C20.457 25.4153 28.0251 20.7225 31.3299 24.0273C36.5846 25.0518 39.9225 30.9014 44.7476 26.8364C49.8371 29.5464 54.9926 31.3311 59.9499 26.6051C65.3368 24.3578 69.0052 19.9646 74.8878 26.4752C83.5795 26.2769 88.9334 25.3515 95.8075 19.3367C102.682 13.3219 113.951 19.6011 122.015 23.5008C129.352 24.4262 137.151 29.3174 144.851 24.3932C152.585 26.3761 160.219 17.7151 167.258 19.2353C175.454 26.5721 183.518 29.8769 192.871 27.4974C201.43 25.8119 208.965 22.0444 217.756 27.927C221.821 22.474 224.895 27.6627 228.96 29.6456C237.603 31.0589 246.147 21.0237 254.539 23.5281C261.347 25.6102 265.148 35.2604 271.625 34.3681C276.45 43.4894 281.936 30.4023 286.861 34.3681C291.95 31.7572 295.817 35.3925 301.138 38.4991C305.632 33.5749 310.523 40.3829 315.051 38.3008C323.908 38.9618 336.929 41.0108 344.795 36.0536C347.306 38.5652 348.793 38.2347 351.636 31.0963C355.172 31.0963 359.666 35.4917 363.302 30.865C367.862 30.865 369.713 24.2553 374.043 26.9983C376.092 23.6935 378.008 26.7009 380.09 26.7339C381.049 26.7339 382.866 29.6421 384.354 22.8011C387.989 22.6028 393.045 38.1059 396.945 32.0581C400.25 29.6786 403.191 25.151 406.562 30.2404C410.627 34.3054 411.685 39.9236 416.477 37.1806C417.98 36.7612 419.379 36.0332 420.585 35.0432C421.792 34.0531 422.779 32.8227 423.483 31.4302C428.275 24.0273 435.314 30.7031 441.065 29.7116C452.5 27.1008 464 23.6968 475.435 29.7116C478.343 28.588 480.624 29.976 483.4 28.9846C487.597 24.0934 487.366 26.6712 492.059 23.8951C499.924 24.3578 508.153 30.5048 516.184 26.0102C520.579 19.4005 524.314 25.4484 528.841 24.0604C529.388 24.692 530.075 25.1879 530.846 25.5086C531.617 25.8294 532.453 25.9664 533.286 25.9087C534.12 25.851 534.928 25.6002 535.648 25.1762C536.368 24.7521 536.98 24.1665 537.434 23.4655C540.541 20.3589 539.186 18.1778 540.937 14.9721C543.912 11.502 554.421 10.7088 559.874 12.857C564.765 19.8302 569.789 16.8558 574.547 12.857C581.686 9.91567 586.974 11.7994 592.955 16.988C596.492 27.4644 598.111 19.7641 601.879 22.2758C605.415 20.1937 607.695 27.6957 610.835 26.5059C616.255 31.0005 623.162 26.2085 630.366 32.1572C637.571 34.008 645.04 36.5857 651.55 31.5954C659.68 33.1817 668.075 30.4057 675.742 29.7447C679.675 24.3909 679.476 25.845 683.74 27.9601C687.064 27.3863 690.249 26.1863 693.125 24.4239C698.876 31.0336 706.18 29.1168 712.227 24.0934C718.044 26.3407 723.96 24.3578 729.743 24.0934C737.576 21.4495 746.036 26.9356 754.463 27.7618C762.924 23.4325 771.318 21.1521 778.985 24.2256C781.365 20.1937 782.951 22.6063 785.066 18.9709C785.529 22.2758 788.867 15.6661 789.131 15.1373C793.89 11.0393 798.451 16.6906 802.879 16.5254C808.828 18.3761 813.653 12.9561 819.007 20.4581C823.79 22.6683 828.134 25.7248 831.83 29.4803C836.972 30.1898 842.21 29.4218 846.933 27.2661C848.99 26.7904 851.137 26.8769 853.148 27.5165C855.16 28.1561 856.963 29.3253 858.368 30.9014C860.714 35.6934 860.747 37.5111 864.118 32.8843C867.621 35.9908 871.19 22.4079 874.661 25.7789C879.42 22.8045 885.17 25.5806 890.359 24.49C897.398 26.2746 904.669 33.9749 912.005 26.2746C919.342 24.3578 926.679 28.588 933.883 25.9441C936.792 31.2649 943.005 21.1521 945.417 25.9441C947.83 23.7299 947.698 23.7299 950.209 18.3761C952.721 9.58519 957.844 9.68432 960.95 16.6245C964.928 16.4006 968.904 17.0784 972.583 18.6074C977.97 25.845 983.489 19.037 988.876 18.8057C993.853 19.4703 998.892 18.1659 1002.92 15.1703C1010.59 11.8655 1014.95 16.9549 1020.77 21.0529C1024.07 26.1094 1024.7 23.3994 1028.67 25.1179C1031.28 29.3481 1033.49 25.3162 1036.17 29.5464C1040.76 27.7948 1046.74 34.5698 1051.57 29.8438C1056.33 31.5954 1059.2 28.555 1063.43 27.8279C1066.44 28.8524 1068.06 23.7299 1070.37 30.2734C1074.14 36.8831 1074.17 25.3823 1078.7 33.5783C1084.39 27.3322 1090.37 33.5783 1096.09 33.5783C1098.96 37.1476 1102.27 32.1903 1105.11 33.5783C1109.67 34.2723 1107.52 32.3885 1111.06 30.2734C1115.32 25.5475 1119.45 21.2512 1124.97 27.9931C1129.03 23.8951 1133.1 26.4398 1137.13 27.9931C1140.44 28.9185 1143.74 27.5635 1146.78 28.3236C1149.69 25.878 1152.53 30.637 1155.7 32.3225C1158.81 36.9162 1162.15 31.4632 1165.26 34.3054C1170.81 32.4216 1174.94 40.3533 1180.46 42.6336C1185.98 51.1601 1192.09 42.9641 1197.74 43.2615C1202.2 47.1282 1205.44 42.3362 1209.94 48.2519C1212.71 39.1305 1215.46 50.2678 1218.1 49.4746C1219.82 49.045 1221.67 57.1749 1223.62 52.5481C1225.3 55.2911 1227.32 47.3926 1229.07 52.2507C1234.53 51.5567 1236.28 40.0855 1240.41 46.0342C1249.17 51.355 1259.41 58.4273 1270.15 51.5863C1275.8 52.8421 1281.42 51.1567 1287.07 51.5863C1294.77 54.8911 1302.44 50.4957 1310.21 51.5863C1317.91 54.5276 1325.57 51.5863 1333.34 51.5863C1337.9 50.2313 1341.01 48.2815 1345.14 49.6695C1348.44 48.1823 1351.75 52.71 1355.05 49.6695C1360.87 51.5863 1369 53.2057 1373.92 44.3157C1376.07 41.0108 1376.63 37.2763 1378.52 39.9202C1379.71 41.9692 1380.9 39.9202 1382.09 36.4171C1384.07 31.6912 1384.93 28.816 1384.7 30.6336C1390.91 24.4205 1408.26 42.1379 1417.75 38.6347C1424.72 37.445 1431.59 35.3299 1439.06 37.3458C1443.26 40.2211 1445.37 34.702 1449.21 33.7766C1454.59 32.653 1461.24 36.3874 1466.76 33.4461C1474.39 31.8928 1481.86 37.5772 1489.36 34.3715C1496.86 34.1071 1512 35.3299 1512 35.3299V0Z",
                         fill: "#97E2F4"
                     })
                 }), c.jsx("defs", {
@@ -11586,14 +11576,14 @@ function l3() {
                         className: "banner-text",
                         children: [c.jsx("h1", {
                             className: "text-white text-[35px] md:text-[44px] lg:text-[56px] xl:text-[70px] xxl:text-[74px] md:text-start text-center mb-4 lg:mb-6",
-                            children: "Meet Arnold"
+                            children: "Meet TRUMPPUMP"
                         }), c.jsx("p", {
-                            className: "text-[#2c2a2a] font-kantumruy text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold !leading-normal mb-7 md:9 lg:10 xl:mb-12",
-                            children: "If you haven't heard about Arnold yet, where have you been hiding? Arnold isn't just a public figure, he's a vibrant force of sweetness and fun, now making waves as a meme coin on the Solana blockchain! "
+                            className: "text-[#2c2a2a] font-kantumruy text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold !leading-normal mb-7 md:9 lg:10 xl:mb-12 white-color",
+                            children: "If you haven't heard about TRUMPPUMP yet, what rock have you been living under? TRUMPPUMP isn’t just inspired by the iconic Donald J. Trump – it embodies his larger-than-life persona and unstoppable energy! Now taking the spotlight as a memecoin on the Solana blockchain, TRUMPPUMP is here to pump up the fun, the hype, and the gains!"
                         }), c.jsxs("div", {
                             className: "banner-social flex items-center flex-wrap gap-3 justify-center md:justify-start",
                             children: [c.jsx("a", {
-                                href: "https://raydium.io/swap/?inputMint=sol&outputMint=9TY6DUg1VSssYH5tFE95qoq5hnAGFak4w3cn72sJNCoV",
+                                href: "https://pump.fun/board",
                                 target: "_blank",
                                 className: "btn",
                                 children: "Buy Now"
@@ -11640,35 +11630,13 @@ function o3() {
         name: "twitter (x)",
         icon: c.jsx(Ru, {}),
         url: Fu,
-        count: "45k"
     }, {
         name: "telegram",
         icon: c.jsx(tf, {}),
         url: Du,
-        count: "11k"
-    }, {
-        name: "instagram",
-        icon: c.jsx(ef, {}),
-        url: lf,
-        count: "259k"
-    }, {
-        name: "facebook",
-        icon: c.jsx(Yp, {}),
-        url: Kp,
-        count: "91k"
-    }, {
-        name: "youtube",
-        icon: c.jsx(rf, {}),
-        url: of,
-        count: "3.8 Million"
-    }, {
-        name: "tiktok",
-        icon: c.jsx(nf, {}),
-        url: uf,
-        count: "100k"
-    }];
+    },];
     return c.jsx("div", {
-        className: "socials relative z-10",
+        className: "socials relative z-10 matrix-bg",
         children: c.jsxs(Kt, {
             children: [c.jsx(Ke, {
                 className: "justify-center",
@@ -11681,8 +11649,8 @@ function o3() {
                             className: "leading-[150%] font-normal text-white mb-6",
                             children: "Socials"
                         }), c.jsx("p", {
-                            className: "leading-[150%] font-bold text-[#2C2A2A] mb-7",
-                            children: "Join Arnold, a proud member of the legendary Boy's Club, and dive into a world of memes, friendships, and high-fives galore! The Arnold community is expanding every day come be part of the fun!"
+                            className: "leading-[150%] font-bold text-[#2C2A2A] mb-7 white-color",
+                            children: "Join TRUMPPUMP, the ultimate member of the legendary Club, and immerse yourself in a world of memes, camaraderie, and endless high-fives! The TRUMPPUMP community is growing stronger every day—don’t miss out on the fun and excitement!"
                         })]
                     })
                 })
@@ -11725,7 +11693,7 @@ function u3() {
         color: "#5D8FFA"
     }, {
         title: "Token name",
-        value: "Arnold",
+        value: "TRUMPPUMP",
         color: "#CF13DA"
     }];
     return c.jsxs(c.Fragment, {
@@ -11737,7 +11705,7 @@ function u3() {
                 alt: ""
             })
         }), c.jsxs("div", {
-            className: "tokenomics relative z-30",
+            className: "tokenomics relative z-30 matrix-bg",
             children: [c.jsx("div", {
                 className: "tokenomics-shape w-full absolute left-0 top-full",
                 children: c.jsxs("svg", {
@@ -11750,7 +11718,6 @@ function u3() {
                     children: [c.jsx("g", {
                         filter: "url(#filter0_d_80_16)",
                         children: c.jsx("path", {
-                            d: "M1512 0H0C0 0 0 21.9427 0 35.4951C5.61824 31.8598 11.2034 24.7213 17.1522 24.0273C20.457 25.4153 28.0251 20.7225 31.3299 24.0273C36.5846 25.0518 39.9225 30.9014 44.7476 26.8364C49.8371 29.5464 54.9926 31.3311 59.9499 26.6051C65.3368 24.3578 69.0052 19.9646 74.8878 26.4752C83.5795 26.2769 88.9334 25.3515 95.8075 19.3367C102.682 13.3219 113.951 19.6011 122.015 23.5008C129.352 24.4262 137.151 29.3174 144.851 24.3932C152.585 26.3761 160.219 17.7151 167.258 19.2353C175.454 26.5721 183.518 29.8769 192.871 27.4974C201.43 25.8119 208.965 22.0444 217.756 27.927C221.821 22.474 224.895 27.6627 228.96 29.6456C237.603 31.0589 246.147 21.0237 254.539 23.5281C261.347 25.6102 265.148 35.2604 271.625 34.3681C276.45 43.4894 281.936 30.4023 286.861 34.3681C291.95 31.7572 295.817 35.3925 301.138 38.4991C305.632 33.5749 310.523 40.3829 315.051 38.3008C323.908 38.9618 336.929 41.0108 344.795 36.0536C347.306 38.5652 348.793 38.2347 351.636 31.0963C355.172 31.0963 359.666 35.4917 363.302 30.865C367.862 30.865 369.713 24.2553 374.043 26.9983C376.092 23.6935 378.008 26.7009 380.09 26.7339C381.049 26.7339 382.866 29.6421 384.354 22.8011C387.989 22.6028 393.045 38.1059 396.945 32.0581C400.25 29.6786 403.191 25.151 406.562 30.2404C410.627 34.3054 411.685 39.9236 416.477 37.1806C417.98 36.7612 419.379 36.0332 420.585 35.0432C421.792 34.0531 422.779 32.8227 423.483 31.4302C428.275 24.0273 435.314 30.7031 441.065 29.7116C452.5 27.1008 464 23.6968 475.435 29.7116C478.343 28.588 480.624 29.976 483.4 28.9846C487.597 24.0934 487.366 26.6712 492.059 23.8951C499.924 24.3578 508.153 30.5048 516.184 26.0102C520.579 19.4005 524.314 25.4484 528.841 24.0604C529.388 24.692 530.075 25.1879 530.846 25.5086C531.617 25.8294 532.453 25.9664 533.286 25.9087C534.12 25.851 534.928 25.6002 535.648 25.1762C536.368 24.7521 536.98 24.1665 537.434 23.4655C540.541 20.3589 539.186 18.1778 540.937 14.9721C543.912 11.502 554.421 10.7088 559.874 12.857C564.765 19.8302 569.789 16.8558 574.547 12.857C581.686 9.91567 586.974 11.7994 592.955 16.988C596.492 27.4644 598.111 19.7641 601.879 22.2758C605.415 20.1937 607.695 27.6957 610.835 26.5059C616.255 31.0005 623.162 26.2085 630.366 32.1572C637.571 34.008 645.04 36.5857 651.55 31.5954C659.68 33.1817 668.075 30.4057 675.742 29.7447C679.675 24.3909 679.476 25.845 683.74 27.9601C687.064 27.3863 690.249 26.1863 693.125 24.4239C698.876 31.0336 706.18 29.1168 712.227 24.0934C718.044 26.3407 723.96 24.3578 729.743 24.0934C737.576 21.4495 746.036 26.9356 754.463 27.7618C762.924 23.4325 771.318 21.1521 778.985 24.2256C781.365 20.1937 782.951 22.6063 785.066 18.9709C785.529 22.2758 788.867 15.6661 789.131 15.1373C793.89 11.0393 798.451 16.6906 802.879 16.5254C808.828 18.3761 813.653 12.9561 819.007 20.4581C823.79 22.6683 828.134 25.7248 831.83 29.4803C836.972 30.1898 842.21 29.4218 846.933 27.2661C848.99 26.7904 851.137 26.8769 853.148 27.5165C855.16 28.1561 856.963 29.3253 858.368 30.9014C860.714 35.6934 860.747 37.5111 864.118 32.8843C867.621 35.9908 871.19 22.4079 874.661 25.7789C879.42 22.8045 885.17 25.5806 890.359 24.49C897.398 26.2746 904.669 33.9749 912.005 26.2746C919.342 24.3578 926.679 28.588 933.883 25.9441C936.792 31.2649 943.005 21.1521 945.417 25.9441C947.83 23.7299 947.698 23.7299 950.209 18.3761C952.721 9.58519 957.844 9.68432 960.95 16.6245C964.928 16.4006 968.904 17.0784 972.583 18.6074C977.97 25.845 983.489 19.037 988.876 18.8057C993.853 19.4703 998.892 18.1659 1002.92 15.1703C1010.59 11.8655 1014.95 16.9549 1020.77 21.0529C1024.07 26.1094 1024.7 23.3994 1028.67 25.1179C1031.28 29.3481 1033.49 25.3162 1036.17 29.5464C1040.76 27.7948 1046.74 34.5698 1051.57 29.8438C1056.33 31.5954 1059.2 28.555 1063.43 27.8279C1066.44 28.8524 1068.06 23.7299 1070.37 30.2734C1074.14 36.8831 1074.17 25.3823 1078.7 33.5783C1084.39 27.3322 1090.37 33.5783 1096.09 33.5783C1098.96 37.1476 1102.27 32.1903 1105.11 33.5783C1109.67 34.2723 1107.52 32.3885 1111.06 30.2734C1115.32 25.5475 1119.45 21.2512 1124.97 27.9931C1129.03 23.8951 1133.1 26.4398 1137.13 27.9931C1140.44 28.9185 1143.74 27.5635 1146.78 28.3236C1149.69 25.878 1152.53 30.637 1155.7 32.3225C1158.81 36.9162 1162.15 31.4632 1165.26 34.3054C1170.81 32.4216 1174.94 40.3533 1180.46 42.6336C1185.98 51.1601 1192.09 42.9641 1197.74 43.2615C1202.2 47.1282 1205.44 42.3362 1209.94 48.2519C1212.71 39.1305 1215.46 50.2678 1218.1 49.4746C1219.82 49.045 1221.67 57.1749 1223.62 52.5481C1225.3 55.2911 1227.32 47.3926 1229.07 52.2507C1234.53 51.5567 1236.28 40.0855 1240.41 46.0342C1249.17 51.355 1259.41 58.4273 1270.15 51.5863C1275.8 52.8421 1281.42 51.1567 1287.07 51.5863C1294.77 54.8911 1302.44 50.4957 1310.21 51.5863C1317.91 54.5276 1325.57 51.5863 1333.34 51.5863C1337.9 50.2313 1341.01 48.2815 1345.14 49.6695C1348.44 48.1823 1351.75 52.71 1355.05 49.6695C1360.87 51.5863 1369 53.2057 1373.92 44.3157C1376.07 41.0108 1376.63 37.2763 1378.52 39.9202C1379.71 41.9692 1380.9 39.9202 1382.09 36.4171C1384.07 31.6912 1384.93 28.816 1384.7 30.6336C1390.91 24.4205 1408.26 42.1379 1417.75 38.6347C1424.72 37.445 1431.59 35.3299 1439.06 37.3458C1443.26 40.2211 1445.37 34.702 1449.21 33.7766C1454.59 32.653 1461.24 36.3874 1466.76 33.4461C1474.39 31.8928 1481.86 37.5772 1489.36 34.3715C1496.86 34.1071 1512 35.3299 1512 35.3299V0Z",
                             fill: "#97E2F4"
                         })
                     }), c.jsx("defs", {
@@ -11832,25 +11799,25 @@ const a3 = "/assets/qr-img-TDjBZe8u.png"
 function h3() {
     const e = [{
         img: d3,
-        url: "https://app.bubblemaps.io/sol/token/LDK9TCQNkcFgTiFnbYtmbPToUXgxJL55eGqq817cqDx"
+        url: "https://app.bubblemaps.io/sol/"
     }, {
         img: p3,
-        url: "https://www.geckoterminal.com/solana/pools/6dZ9b3pXNLj8ex8ocXxW61625mUUsf75Cv7rkiTV7FiR"
+        url: "https://www.geckoterminal.com/"
     }, {
         img: m3,
-        url: "https://www.birdeye.so/token/LDK9TCQNkcFgTiFnbYtmbPToUXgxJL55eGqq817cqDx?chain=solana"
+        url: "https://www.birdeye.so/"
     }, {
         img: s3,
         url: ""
     }, {
         img: c3,
-        url: "https://dexscreener.com/solana/6dz9b3pxnlj8ex8ocxxw61625muusf75cv7rkitv7fir"
+        url: "https://dexscreener.com/solana"
     }, {
         img: f3,
-        url: "https://www.dextools.io/app/en/solana/pair-explorer/6dZ9b3pXNLj8ex8ocXxW61625mUUsf75Cv7rkiTV7FiR?t=1735973488962"
+        url: "https://www.dextools.io/app/en/pairs"
     }];
     return c.jsxs("div", {
-        className: "together relative bg-[#5D8FFA] pt-16 md:pt-20 lg:pt-24 xl:pt-[140px] pb-12 md:pb-16 lg:pb-20 xl:pb-[120px]",
+        className: "together relative bg-[#5D8FFA] pt-16 md:pt-20 lg:pt-24 xl:pt-[140px] pb-12 md:pb-16 lg:pb-20 xl:pb-[120px] banner-2",
         children: [c.jsx("div", {
             className: "absolute top-full left w-full h-auto",
             children: c.jsxs("svg", {
@@ -11859,11 +11826,10 @@ function h3() {
                 height: "63",
                 viewBox: "0 0 1512 63",
                 fill: "none",
-                xmlns: "http://www.w3.org/2000/svg",
+                // xmlns: "http://www.w3.org/2000/svg",
                 children: [c.jsx("g", {
                     filter: "url(#filter0_d_80_241)",
                     children: c.jsx("path", {
-                        d: "M1512 0H0C0 0 0 21.9427 0 35.4951C5.61824 31.8598 11.2034 24.7213 17.1522 24.0273C20.457 25.4153 28.0251 20.7225 31.3299 24.0273C36.5846 25.0518 39.9225 30.9014 44.7476 26.8364C49.8371 29.5464 54.9926 31.3311 59.9499 26.6051C65.3368 24.3578 69.0052 19.9646 74.8878 26.4752C83.5795 26.2769 88.9334 25.3515 95.8075 19.3367C102.682 13.3219 113.951 19.6011 122.015 23.5008C129.352 24.4262 137.151 29.3174 144.851 24.3932C152.585 26.3761 160.219 17.7151 167.258 19.2353C175.454 26.5721 183.518 29.8769 192.871 27.4974C201.43 25.8119 208.965 22.0444 217.756 27.927C221.821 22.474 224.895 27.6627 228.96 29.6456C237.603 31.0589 246.147 21.0237 254.539 23.5281C261.347 25.6102 265.148 35.2604 271.625 34.3681C276.45 43.4894 281.936 30.4023 286.861 34.3681C291.95 31.7572 295.817 35.3925 301.138 38.4991C305.632 33.5749 310.523 40.3829 315.051 38.3008C323.908 38.9618 336.929 41.0108 344.795 36.0536C347.306 38.5652 348.793 38.2347 351.636 31.0963C355.172 31.0963 359.666 35.4917 363.302 30.865C367.862 30.865 369.713 24.2553 374.043 26.9983C376.092 23.6935 378.008 26.7009 380.09 26.7339C381.049 26.7339 382.866 29.6421 384.354 22.8011C387.989 22.6028 393.045 38.1059 396.945 32.0581C400.25 29.6786 403.191 25.151 406.562 30.2404C410.627 34.3054 411.685 39.9236 416.477 37.1806C417.98 36.7612 419.379 36.0332 420.585 35.0432C421.792 34.0531 422.779 32.8227 423.483 31.4302C428.275 24.0273 435.314 30.7031 441.065 29.7116C452.5 27.1008 464 23.6968 475.435 29.7116C478.343 28.588 480.624 29.976 483.4 28.9846C487.597 24.0934 487.366 26.6712 492.059 23.8951C499.924 24.3578 508.153 30.5048 516.184 26.0102C520.579 19.4005 524.314 25.4484 528.841 24.0604C529.388 24.692 530.075 25.1879 530.846 25.5086C531.617 25.8294 532.453 25.9664 533.286 25.9087C534.12 25.851 534.928 25.6002 535.648 25.1762C536.368 24.7521 536.98 24.1665 537.434 23.4655C540.541 20.3589 539.186 18.1778 540.937 14.9721C543.912 11.502 554.421 10.7088 559.874 12.857C564.765 19.8302 569.789 16.8558 574.547 12.857C581.686 9.91567 586.974 11.7994 592.955 16.988C596.492 27.4644 598.111 19.7641 601.879 22.2758C605.415 20.1937 607.695 27.6957 610.835 26.5059C616.255 31.0005 623.162 26.2085 630.366 32.1572C637.571 34.008 645.04 36.5857 651.55 31.5954C659.68 33.1817 668.075 30.4057 675.742 29.7447C679.675 24.3909 679.476 25.845 683.74 27.9601C687.064 27.3863 690.249 26.1863 693.125 24.4239C698.876 31.0336 706.18 29.1168 712.227 24.0934C718.044 26.3407 723.96 24.3578 729.743 24.0934C737.576 21.4495 746.036 26.9356 754.463 27.7618C762.924 23.4325 771.318 21.1521 778.985 24.2256C781.365 20.1937 782.951 22.6063 785.066 18.9709C785.529 22.2758 788.867 15.6661 789.131 15.1373C793.89 11.0393 798.451 16.6906 802.879 16.5254C808.828 18.3761 813.653 12.9561 819.007 20.4581C823.79 22.6683 828.134 25.7248 831.83 29.4803C836.972 30.1898 842.21 29.4218 846.933 27.2661C848.99 26.7904 851.137 26.8769 853.148 27.5165C855.16 28.1561 856.963 29.3253 858.368 30.9014C860.714 35.6934 860.747 37.5111 864.118 32.8843C867.621 35.9908 871.19 22.4079 874.661 25.7789C879.42 22.8045 885.17 25.5806 890.359 24.49C897.398 26.2746 904.669 33.9749 912.005 26.2746C919.342 24.3578 926.679 28.588 933.883 25.9441C936.792 31.2649 943.005 21.1521 945.417 25.9441C947.83 23.7299 947.698 23.7299 950.209 18.3761C952.721 9.58519 957.844 9.68432 960.95 16.6245C964.928 16.4006 968.904 17.0784 972.583 18.6074C977.97 25.845 983.489 19.037 988.876 18.8057C993.853 19.4703 998.892 18.1659 1002.92 15.1703C1010.59 11.8655 1014.95 16.9549 1020.77 21.0529C1024.07 26.1094 1024.7 23.3994 1028.67 25.1179C1031.28 29.3481 1033.49 25.3162 1036.17 29.5464C1040.76 27.7948 1046.74 34.5698 1051.57 29.8438C1056.33 31.5954 1059.2 28.555 1063.43 27.8279C1066.44 28.8524 1068.06 23.7299 1070.37 30.2734C1074.14 36.8831 1074.17 25.3823 1078.7 33.5783C1084.39 27.3322 1090.37 33.5783 1096.09 33.5783C1098.96 37.1476 1102.27 32.1903 1105.11 33.5783C1109.67 34.2723 1107.52 32.3885 1111.06 30.2734C1115.32 25.5475 1119.45 21.2512 1124.97 27.9931C1129.03 23.8951 1133.1 26.4398 1137.13 27.9931C1140.44 28.9185 1143.74 27.5635 1146.78 28.3236C1149.69 25.878 1152.53 30.637 1155.7 32.3225C1158.81 36.9162 1162.15 31.4632 1165.26 34.3054C1170.81 32.4216 1174.94 40.3533 1180.46 42.6336C1185.98 51.1601 1192.09 42.9641 1197.74 43.2615C1202.2 47.1282 1205.44 42.3362 1209.94 48.2519C1212.71 39.1305 1215.46 50.2678 1218.1 49.4746C1219.82 49.045 1221.67 57.1749 1223.62 52.5481C1225.3 55.2911 1227.32 47.3926 1229.07 52.2507C1234.53 51.5567 1236.28 40.0855 1240.41 46.0342C1249.17 51.355 1259.41 58.4273 1270.15 51.5863C1275.8 52.8421 1281.42 51.1567 1287.07 51.5863C1294.77 54.8911 1302.44 50.4957 1310.21 51.5863C1317.91 54.5276 1325.57 51.5863 1333.34 51.5863C1337.9 50.2313 1341.01 48.2815 1345.14 49.6695C1348.44 48.1823 1351.75 52.71 1355.05 49.6695C1360.87 51.5863 1369 53.2057 1373.92 44.3157C1376.07 41.0108 1376.63 37.2763 1378.52 39.9202C1379.71 41.9692 1380.9 39.9202 1382.09 36.4171C1384.07 31.6912 1384.93 28.816 1384.7 30.6336C1390.91 24.4205 1408.26 42.1379 1417.75 38.6347C1424.72 37.445 1431.59 35.3299 1439.06 37.3458C1443.26 40.2211 1445.37 34.702 1449.21 33.7766C1454.59 32.653 1461.24 36.3874 1466.76 33.4461C1474.39 31.8928 1481.86 37.5772 1489.36 34.3715C1496.86 34.1071 1512 35.3299 1512 35.3299V0Z",
                         fill: "#5D8FFA"
                     })
                 }), c.jsx("defs", {
@@ -11912,7 +11878,7 @@ function h3() {
                     md: 10,
                     children: c.jsx("h2", {
                         className: "flex justify-center text-center leading-[150%] font-normal text-white mb-10 md:mb-12 lg:mb-14 xl:mb-16",
-                        children: "LET'S ARNOLD TOGETHER"
+                        children: "LET'S TRUMPPUMP TOGETHER"
                     })
                 })
             }), c.jsxs(Ke, {
@@ -11966,16 +11932,16 @@ function C3() {
     }, {
         num: 3,
         title: "Hit Up Jupiter or raydium",
-        des: "Go to Jupiter or Raydium, type in ARNOLD, and swap that SOL for some next-level meme magic.",
+        des: "Go to Jupiter or Raydium, type in TRUMPPUMP, and swap that SOL for some next-level meme magic.",
         img: y3
     }, {
         num: 4,
-        title: "Welcome to the Arnold Army",
+        title: "Welcome to the TRUMPPUMP Army",
         des: "You’re  a proud holder of the most hyped memecoin galaxy. ",
         img: w3
     }];
     return c.jsxs("div", {
-        className: "howto pt-16 md:pt-20 lg:pt-24 xl:pt-[100px] xxl:pt-[120px] pb-10 md:pb-20 lg:pb-[119px] relative z-20",
+        className: "howto pt-16 md:pt-20 lg:pt-24 xl:pt-[100px] xxl:pt-[120px] pb-10 md:pb-20 lg:pb-[119px] relative z-20 matrix-bg",
         children: [c.jsx("div", {
             className: "howto-shape h-auto w-full absolute left-0 top-full",
             children: c.jsxs("svg", {
@@ -11988,7 +11954,6 @@ function C3() {
                 children: [c.jsx("g", {
                     filter: "url(#filter0_d_80_250)",
                     children: c.jsx("path", {
-                        d: "M1512 0H0C0 0 0 21.9427 0 35.4951C5.61824 31.8598 11.2034 24.7213 17.1522 24.0273C20.457 25.4153 28.0251 20.7225 31.3299 24.0273C36.5846 25.0518 39.9225 30.9014 44.7476 26.8364C49.8371 29.5464 54.9926 31.3311 59.9499 26.6051C65.3368 24.3578 69.0052 19.9646 74.8878 26.4752C83.5795 26.2769 88.9334 25.3515 95.8075 19.3367C102.682 13.3219 113.951 19.6011 122.015 23.5008C129.352 24.4262 137.151 29.3174 144.851 24.3932C152.585 26.3761 160.219 17.7151 167.258 19.2353C175.454 26.5721 183.518 29.8769 192.871 27.4974C201.43 25.8119 208.965 22.0444 217.756 27.927C221.821 22.474 224.895 27.6627 228.96 29.6456C237.603 31.0589 246.147 21.0237 254.539 23.5281C261.347 25.6102 265.148 35.2604 271.625 34.3681C276.45 43.4894 281.936 30.4023 286.861 34.3681C291.95 31.7572 295.817 35.3925 301.138 38.4991C305.632 33.5749 310.523 40.3829 315.051 38.3008C323.908 38.9618 336.929 41.0108 344.795 36.0536C347.306 38.5652 348.793 38.2347 351.636 31.0963C355.172 31.0963 359.666 35.4917 363.302 30.865C367.862 30.865 369.713 24.2553 374.043 26.9983C376.092 23.6935 378.008 26.7009 380.09 26.7339C381.049 26.7339 382.866 29.6421 384.354 22.8011C387.989 22.6028 393.045 38.1059 396.945 32.0581C400.25 29.6786 403.191 25.151 406.562 30.2404C410.627 34.3054 411.685 39.9236 416.477 37.1806C417.98 36.7612 419.379 36.0332 420.585 35.0432C421.792 34.0531 422.779 32.8227 423.483 31.4302C428.275 24.0273 435.314 30.7031 441.065 29.7116C452.5 27.1008 464 23.6968 475.435 29.7116C478.343 28.588 480.624 29.976 483.4 28.9846C487.597 24.0934 487.366 26.6712 492.059 23.8951C499.924 24.3578 508.153 30.5048 516.184 26.0102C520.579 19.4005 524.314 25.4484 528.841 24.0604C529.388 24.692 530.075 25.1879 530.846 25.5086C531.617 25.8294 532.453 25.9664 533.286 25.9087C534.12 25.851 534.928 25.6002 535.648 25.1762C536.368 24.7521 536.98 24.1665 537.434 23.4655C540.541 20.3589 539.186 18.1778 540.937 14.9721C543.912 11.502 554.421 10.7088 559.874 12.857C564.765 19.8302 569.789 16.8558 574.547 12.857C581.686 9.91567 586.974 11.7994 592.955 16.988C596.492 27.4644 598.111 19.7641 601.879 22.2758C605.415 20.1937 607.695 27.6957 610.835 26.5059C616.255 31.0005 623.162 26.2085 630.366 32.1572C637.571 34.008 645.04 36.5857 651.55 31.5954C659.68 33.1817 668.075 30.4057 675.742 29.7447C679.675 24.3909 679.476 25.845 683.74 27.9601C687.064 27.3863 690.249 26.1863 693.125 24.4239C698.876 31.0336 706.18 29.1168 712.227 24.0934C718.044 26.3407 723.96 24.3578 729.743 24.0934C737.576 21.4495 746.036 26.9356 754.463 27.7618C762.924 23.4325 771.318 21.1521 778.985 24.2256C781.365 20.1937 782.951 22.6063 785.066 18.9709C785.529 22.2758 788.867 15.6661 789.131 15.1373C793.89 11.0393 798.451 16.6906 802.879 16.5254C808.828 18.3761 813.653 12.9561 819.007 20.4581C823.79 22.6683 828.134 25.7248 831.83 29.4803C836.972 30.1898 842.21 29.4218 846.933 27.2661C848.99 26.7904 851.137 26.8769 853.148 27.5165C855.16 28.1561 856.963 29.3253 858.368 30.9014C860.714 35.6934 860.747 37.5111 864.118 32.8843C867.621 35.9908 871.19 22.4079 874.661 25.7789C879.42 22.8045 885.17 25.5806 890.359 24.49C897.398 26.2746 904.669 33.9749 912.005 26.2746C919.342 24.3578 926.679 28.588 933.883 25.9441C936.792 31.2649 943.005 21.1521 945.417 25.9441C947.83 23.7299 947.698 23.7299 950.209 18.3761C952.721 9.58519 957.844 9.68432 960.95 16.6245C964.928 16.4006 968.904 17.0784 972.583 18.6074C977.97 25.845 983.489 19.037 988.876 18.8057C993.853 19.4703 998.892 18.1659 1002.92 15.1703C1010.59 11.8655 1014.95 16.9549 1020.77 21.0529C1024.07 26.1094 1024.7 23.3994 1028.67 25.1179C1031.28 29.3481 1033.49 25.3162 1036.17 29.5464C1040.76 27.7948 1046.74 34.5698 1051.57 29.8438C1056.33 31.5954 1059.2 28.555 1063.43 27.8279C1066.44 28.8524 1068.06 23.7299 1070.37 30.2734C1074.14 36.8831 1074.17 25.3823 1078.7 33.5783C1084.39 27.3322 1090.37 33.5783 1096.09 33.5783C1098.96 37.1476 1102.27 32.1903 1105.11 33.5783C1109.67 34.2723 1107.52 32.3885 1111.06 30.2734C1115.32 25.5475 1119.45 21.2512 1124.97 27.9931C1129.03 23.8951 1133.1 26.4398 1137.13 27.9931C1140.44 28.9185 1143.74 27.5635 1146.78 28.3236C1149.69 25.878 1152.53 30.637 1155.7 32.3225C1158.81 36.9162 1162.15 31.4632 1165.26 34.3054C1170.81 32.4216 1174.94 40.3533 1180.46 42.6336C1185.98 51.1601 1192.09 42.9641 1197.74 43.2615C1202.2 47.1282 1205.44 42.3362 1209.94 48.2519C1212.71 39.1305 1215.46 50.2678 1218.1 49.4746C1219.82 49.045 1221.67 57.1749 1223.62 52.5481C1225.3 55.2911 1227.32 47.3926 1229.07 52.2507C1234.53 51.5567 1236.28 40.0855 1240.41 46.0342C1249.17 51.355 1259.41 58.4273 1270.15 51.5863C1275.8 52.8421 1281.42 51.1567 1287.07 51.5863C1294.77 54.8911 1302.44 50.4957 1310.21 51.5863C1317.91 54.5276 1325.57 51.5863 1333.34 51.5863C1337.9 50.2313 1341.01 48.2815 1345.14 49.6695C1348.44 48.1823 1351.75 52.71 1355.05 49.6695C1360.87 51.5863 1369 53.2057 1373.92 44.3157C1376.07 41.0108 1376.63 37.2763 1378.52 39.9202C1379.71 41.9692 1380.9 39.9202 1382.09 36.4171C1384.07 31.6912 1384.93 28.816 1384.7 30.6336C1390.91 24.4205 1408.26 42.1379 1417.75 38.6347C1424.72 37.445 1431.59 35.3299 1439.06 37.3458C1443.26 40.2211 1445.37 34.702 1449.21 33.7766C1454.59 32.653 1461.24 36.3874 1466.76 33.4461C1474.39 31.8928 1481.86 37.5772 1489.36 34.3715C1496.86 34.1071 1512 35.3299 1512 35.3299V0Z",
                         fill: "#97E2F4"
                     })
                 }), c.jsx("defs", {
@@ -12042,8 +12007,8 @@ function C3() {
                             className: "text-3xl md:text-[50px] lg:text-[64px] text-center mb-4 md:mb-4 lg:mb-8",
                             children: "How to Buy"
                         }), c.jsx("p", {
-                            className: "text-lg md:text-xl lg:text-2xl text-center mb-5 md:mb-8 lg:mb-12 xl:mb-16",
-                            children: "How to Buy ARNOLD (No, Seriously)Arnold a cosmic meme token infused with Matt Furie’s iconic art, set to break the internet. Only the loyal will thrive!"
+                            className: "text-lg md:text-xl lg:text-2xl text-center mb-5 md:mb-8 lg:mb-12 xl:mb-16 white-color",
+                            children: "How to Buy TRUMPPUMP (No, Seriously)TRUMPPUMP a cosmic meme token infused with Matt Furie’s iconic art, set to break the internet. Only the loyal will thrive!"
                         })]
                     })
                 })
@@ -12102,10 +12067,6 @@ function k3(e) {
 const x3 = "/assets/footer-shape-BwfcCixP.png";
 function S3() {
     const e = [{
-        name: "youtube",
-        icon: c.jsx(rf, {}),
-        url: of
-    }, {
         name: "telegram",
         icon: c.jsx(k3, {}),
         url: Du
@@ -12113,17 +12074,9 @@ function S3() {
         name: "twitter",
         icon: c.jsx(Ru, {}),
         url: Fu
-    }, {
-        name: "instagram",
-        icon: c.jsx(ef, {}),
-        url: lf
-    }, {
-        name: "tiktok",
-        icon: c.jsx(nf, {}),
-        url: uf
     }];
     return c.jsxs("div", {
-        className: "footer pt-20 md:pt-24 lg:pt-28 xl:pt-36 pb-10 md:pb-14 lg:pb-20 relative z-[1]",
+        className: "footer pt-20 md:pt-24 lg:pt-28 xl:pt-36 pb-10 md:pb-14 lg:pb-20 relative z-[1] banner-3",
         children: [c.jsx("img", {
             src: x3,
             className: "absolute top-[15%] left-1/2 -translate-x-1/2 -z-[1]",
@@ -12137,14 +12090,14 @@ function S3() {
                     lg: 8,
                     className: "text-center",
                     children: [c.jsx(zi, {}), c.jsx("p", {
-                        className: "text-base md:text-xl lg:text-[22px] !leading-normal lg:!leading-[120%] tracking-[.44px] font-milky text-black mt-5 md:mt-6 lg:mt-8",
-                        children: "Disclaimer: ARNOLD is a meme coin made for entertainment purposes. We make no promises about future value, so be responsible. Crypto may be unregulated in your jurisdiction. Profits may be subject to taxes. Always do your own research before"
+                        className: "text-base md:text-xl lg:text-[22px] !leading-normal lg:!leading-[120%] tracking-[.44px] font-milky text-black mt-5 md:mt-6 lg:mt-8 white-color",
+                        children: "Disclaimer: TRUMPPUMP is a meme coin made for entertainment purposes. We make no promises about future value, so be responsible. Crypto may be unregulated in your jurisdiction. Profits may be subject to taxes. Always do your own research before"
                     }), c.jsx(J1, {
                         className: "justify-center mt-5 md:mt-6 lg:mt-8",
                         icons: e
                     }), c.jsxs("p", {
-                        className: "text-lg md:text-xl lg:text-2xl !leading-[120%] tracking-[.48px] font-milky text-black mt-5 md:mt-6 lg:mt-8",
-                        children: ["Copyright © ", new Date().getFullYear(), " ARNOLD. All rights reserved"]
+                        className: "text-lg md:text-xl lg:text-2xl !leading-[120%] tracking-[.48px] font-milky text-black mt-5 md:mt-6 lg:mt-8 white-color",
+                        children: ["Copyright © ", new Date().getFullYear(), " TRUMPPUMP. All rights reserved"]
                     })]
                 })
             })
