@@ -11460,7 +11460,7 @@ function qp(e) {
         }]
     })(e)
 }
-function af({address: e="TBA", className: t=""}) {
+function af({address: e="HzAJQ8LkYw5z76rGa3oEJzHrrcYCCbkgsN5ihviNpump", className: t=""}) {
     const n = e
       , [r,l] = ae.useState(!1)
       , o = () => {
@@ -11500,7 +11500,7 @@ function l3() {
     }, {
         name: "pumpfun",
         icon: t3,
-        url: "https://pump.fun/board"
+        url: "https://pump.fun/coin/HzAJQ8LkYw5z76rGa3oEJzHrrcYCCbkgsN5ihviNpump"
     }, {
         name: "geckoterminal",
         icon: n3,
@@ -11583,7 +11583,7 @@ function l3() {
                         }), c.jsxs("div", {
                             className: "banner-social flex items-center flex-wrap gap-3 justify-center md:justify-start",
                             children: [c.jsx("a", {
-                                href: "https://pump.fun/board",
+                                href: "https://pump.fun/coin/HzAJQ8LkYw5z76rGa3oEJzHrrcYCCbkgsN5ihviNpump",
                                 target: "_blank",
                                 className: "btn",
                                 children: "Buy Now"
